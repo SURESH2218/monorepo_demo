@@ -1,0 +1,10 @@
+{
+  "extend": "@repo/typescript-config/base.json",
+  "compilerOptions": {
+    "lib": ["ES2015"],
+    "module": "NodeNext",
+    "outDir": "./dist"
+  },
+  "exclude": ["node_modules"],
+  "include": ["."]
+}
